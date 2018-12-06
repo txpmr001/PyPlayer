@@ -2,7 +2,7 @@
 
 ### Description
 
-PyPlayer uses a Kivy GUI to allow users to select and play movies from a list of local movie files.  Movie information is collected through the Open Movie Data Base (OMDb) API and stored in a local ZODB database.
+PyPlayer uses a Kivy GUI to allow users to select and play movies from a list of local movie files.  Movie information is collected through the Open Movie Data Base (OMDb) API and stored in a local ZODB object database.
 
 <img src="https://github.com/txpmr001/PyPlayer/blob/master/screenshot.jpg" alt="screenshot">
 
@@ -15,7 +15,7 @@ PyPlayer uses a Kivy GUI to allow users to select and play movies from a list of
 
 ### Using PyPlayer
 
-Download all PyPlayer files. Set *movie_dir* to point to the local file directory that contains movie files. Update list *movie_file_extentions* to reflect the movie file extentions in the *movie_dir*. Set *api_key* to be your OMDb API Key as explained in the requirements section.
+Download all project files. In file **PyPlayer.py**, set *movie_dir* to point to the local file directory that contains movie files. Update list *movie_file_extentions* to reflect the movie file extentions in the *movie_dir*. Set *api_key* to be your OMDb API Key as explained in the requirements section.
 
 
 > Written with [StackEdit](https://stackedit.io/).

@@ -3,7 +3,7 @@
 
 PyPlayer uses a Kivy GUI to allow users to select and play movies from a list of local
 movie files.  Movie information is collected from the Open Movie Data Base (OMDB) and stored
-in a local ZODB database.
+in a local ZODB object database.
 
 Todo:
     * Add auto / manual delete of db entries for files that no longer exist.
@@ -343,5 +343,4 @@ app.run()
 connection.close()
 db.close()
 storage.close()
-db.close()
 sys.exit(0)
